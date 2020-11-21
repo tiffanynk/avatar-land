@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='./app.css'/>
+        <title>Avatar Land</title>
+        <script defer src='./index.js'></script>
+    </head>
+    <body>
+        <h1>Flatiron Benders</h1>
+        <form method='POST' action='http://localhost:3000/benders'>
+            <label for='name'>Name:</label>
+            <input type='text' name='name' placeholder='enter name'/>
+            <label for='snack'>Favorite Snack:</label>
+            <input type='text' name='favorite_snack' placeholder='enter a snack'/>
+            <input type='submit'/>
+        </form>
+        <div class='benders-container'></div>
+    </body>
+</html>
